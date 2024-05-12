@@ -57,9 +57,6 @@
                             <div class="dropdown-content">
 								<a href="http://127.0.0.1:5000/">Course Prediction</a>
                                 <a href="http://127.0.0.1/php%20CAREERLY/courses.php">Courses</a>
-                                <!--<a href="http://127.0.0.1/php%20CAREERLY/blog.php">Blogs</a>
-                                <a href="http://127.0.0.1/php%20CAREERLY/daily_bytes.php">Daily bytes</a>
-                                <a href="http://127.0.0.1/php%20CAREERLY/community.php">Community</a>-->
 								<a href="http://localhost/courserecommendation/blog.php">Knowledge Network</a>
 								<a href="http://127.0.0.1/php%20CAREERLY/faq.php">FAQs</a>
                             </div>
@@ -78,7 +75,7 @@
 		</header>
 	
    <br><br><br><br><br><br><br>
-   <b><h1>Hey! The top job roles that matched your skills.....</h1><br><br></b>
+   <b><h1>Recommended courses based on your skills are.....</h1><br><br></b>
    <div class="graph-cont">
    <h1>You can be a great:</h1>
 
@@ -89,7 +86,7 @@
 	 
 	 {%for key, value in final_res.items(): %}
 		{%if job0!=job_dict[value]%}
-		 <div class="bar bar2"><a href="http://127.0.0.1/php%20CAREERLY/blog.php" style="text-decoration: none;"><font color="white">{{job_dict[value]}}</a></font></div><br>
+		 <div class="bar bar2"><a href="http://127.0.0.1/courserecommendation/blog.php" style="text-decoration: none;"><font color="white">{{job_dict[value]}}</a></font></div><br>
 
 	 
 	 
@@ -106,9 +103,11 @@
 	 {%endfor%}
 	 
 	
-	<i><h2><p><a href="http://localhost/courserecommendation/courses.php">To know more about these job roles click here!</a></p></h2></i>
+	
 	 <br><br>
-	 <h1 style="font-size: 35px; margin-right: 400px;">WHAT TO EXPECT IN: <h2 style="padding-right: 50px;"> Bachelor of Science in Information Technology</h2></h1>
+	 <h1 style="font-size: 35px; margin-right: 1px;">WHAT TO EXPECT IN THESE COURSE: </h1>
+
+	 <i><h2><p><a href="http://localhost/courserecommendation/courses.php">To know more about other Courses click here!</a></p></h2></i>
 	 
 	 
 	

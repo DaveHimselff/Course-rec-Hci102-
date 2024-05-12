@@ -35,7 +35,7 @@ h1,h2,h3{
 }
 .bar::after{
   content: '';
-  background: #8a2be2;
+  background: #af0b00;
   height: 30px;
   transition: 0.7s;
   display: block;

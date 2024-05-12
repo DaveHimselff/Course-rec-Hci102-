@@ -63,9 +63,9 @@ session_start();
 				<div id="courses-wrapper" >
                  		
 					<!-- row -->
+					<h2 style= "padding-left: 450px">Web Development</h2>
 					<div class="row" >
                         <div class="section-header text-center" >
-							<h2  >Web Development</h2>
 						</div>
 						   
 						<!-- single course -->
@@ -275,9 +275,10 @@ session_start();
 					<!-- /row -->
 
 					<!-- row -->
+					<br><br><br>
+					<h2 id="prog" style= "margin-left: 380px;">Programming Langauges</h2>
 					<div class="row">
                         <div class="section-header text-center">
-                            <h2 id="prog">Programming Langauges</h2>
                         </div>
 
 						
@@ -423,9 +424,10 @@ session_start();
 					<!-- /row -->
 
 					<!-- row -->
+					<br><br><br>
+					<h2 id="prog" style= "margin-left: 500px">Server Side</h2>
 					<div class="row">
                         <div class="section-header text-center">
-                            <h2 id="prog">Server Side</h2>
                         </div>
 
 						

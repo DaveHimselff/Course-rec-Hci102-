@@ -27,7 +27,7 @@ session_start();
 							<?php
 								// Check if the user is logged in, if not then redirect him to login page
 								if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):?>
-									<p class="lead white-text" style=" color: #af0b00; margin-left: 5px;" ><b>Discover courses just for you! Get<br>suggestions that fit what you want to<br>learn and where you want to go in your<br>career. It's like having a personal guide<br>helping you find the perfect course<br>match. Start exploring today!</b></p>
+									<p class="lead white-text" style=" color: white; margin-left: 5px;" ><b>Discover courses just for you! Get<br>suggestions that fit what you want to<br>learn and where you want to go in your<br>career. It's like having a personal guide<br>helping you find the perfect course<br>match. Start exploring today!</b></p>
 
 									<a class="main-button icon-button" href="login.php">LEARN MORE</a>
 
