@@ -53,23 +53,23 @@ def result():
                 index += 1
 
         jobs_dict = {
-            0: 'AI ML Specialist',
-            1: 'API Integration Specialist',
-            2: 'Application Support Engineer',
-            3: 'Business Analyst',
-            4: 'Customer Service Executive',
-            5: 'Cyber Security Specialist',
-            6: 'Data Scientist',
-            7: 'Database Administrator',
-            8: 'Bachelor of Science in Graphics Designer',
-            9: 'Hardware Engineer',
-            10: 'Bachelor of Science in Information Technology',
-            11: 'Information Security Specialist',
-            12: 'Networking Engineer',
-            13: 'Project Manager',
-            14: 'Software Developer',
-            15: 'Software Tester',
-            16: 'Technical Writer'
+            0: 'Bachelor of Science in Electronics Engineering',
+            1: 'Bachelor of Science in Computer Engineering',
+            2: 'Bachelor of Science in Information Technology',
+            3: 'Bachelor of Science in Electronics Engineering',
+            4: 'Bachelor of Library Information Science',
+            5: 'Bachelor of Science in Information Technology',
+            6: 'Bachelor of Library Information Science',
+            7: 'Bachelor of Science in Information Technology',
+            8: 'Bachelor of Library Information Science',
+            9: 'Bachelor of Science in Information Technology',
+            10: 'Bachelor of Library Information Science',
+            11: 'Bachelor of Science in Computer Engineering',
+            12: 'Bachelor of Science in Information Technology',
+            13: 'Bachelor of Science in Computer Engineering',
+            14: 'Bachelor of Science in Computer Engineering',
+            15: 'Bachelor of Science in Electronics Engineering',
+            16: 'Bachelor of Science in Electronics Engineering'
         }
 
         job = {}

@@ -86,7 +86,6 @@
                         <li class="dropdown">
                             <a class="dropbtn" href="javascript:void(0)">Services <span>&#11167;</span></i></a>
                             <div class="dropdown-content">
-								<a href="http://127.0.0.1:5000/">Predict</a>
                                 <a href="courses.php">Courses</a>
                                 <a href="blog.php">Knowledge Network</a>
 								

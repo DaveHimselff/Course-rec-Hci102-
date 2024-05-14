@@ -6,7 +6,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
 		<title>Course Prediction</title>
 
 		<!-- Google font -->
@@ -57,7 +56,6 @@
                         <li class="dropdown">
                             <a class="dropbtn" href="javascript:void(0)">Services <span>&#11167;</span></i></a>
                             <div class="dropdown-content">
-								<a href="http://127.0.0.1:5000/">Course Prediction</a>
                                 <a href="http://127.0.0.1/php%20CAREERLY/courses.php">Courses</a>
                                 <!--<a href="http://127.0.0.1/php%20CAREERLY/blog.php">Blogs</a>
                                 <a href="http://127.0.0.1/php%20CAREERLY/daily_bytes.php">Daily bytes</a>
@@ -81,9 +79,8 @@
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(static/img/hcdcBB.png); " ></div>
+			
 			<!-- /Backgound Image -->
-
 			<div class="container">
 				<div class="row" >
 					<div class="col-md-10 col-md-offset-1 text-center">
@@ -132,8 +129,8 @@
 					<form  method="POST", action="{{url_for('result')}}">
 						
 						<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">1. Do you have a basic understanding of Programming?</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">1. How interested are you in pursuing a career in the field of information technology after completing the BSIT program?</label>
+							<div class="col-sm-11">
 							<select class="form-select form-control" required aria-label="select example" name="rate_Database Fundamentals">
 								  <option value="">Select your option</option>
 								 <option value="1">Not Interested</option>
@@ -144,12 +141,12 @@
 									<option value="7">Excellent</option>
 									<option value="9">Professional</option>
 								</select>
-							
+								
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Computer Architecture</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">2. Do you have a basic understanding of Programming?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Computer Architecture" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -163,8 +160,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Distributed Computing Systems</label>
-							<div class="col-sm-9">
+							<label class="col-sm-10  col-form-label">3. How well do you believe the BSIT program prepares students for real-world applications and challenges in the field of information technology?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Distributed Computing Systems" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -178,8 +175,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Cyber Security</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">4. How would you rate the opportunities for hands-on experience, internships, or practical projects provided by the BSIT program?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Cyber Security" >
 							        <option value="" >Select your option</option>
 									<option value="1">Not Interested</option>
@@ -193,8 +190,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Computer Networking</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">5. How would you rate the overall quality of faculty instruction and support within the BSIT program?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Networking" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -208,8 +205,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Software Development</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">1. How confident are you in your ability to solve complex mathematical problems and understand advanced mathematical concepts?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Development" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -223,8 +220,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Programming Skills</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">2. How interested are you in learning about hardware design, including circuit design and microprocessor architecture?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Programming Skills" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -238,8 +235,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Project Management</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">3. How would you rate your enthusiasm for engaging in hands-on projects that involve building and testing computer systems and components?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Project Management" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -253,8 +250,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Computer Forensics Fundamentals</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">4. How prepared are you to tackle interdisciplinary subjects that combine electrical engineering, computer science, and software engineering principles?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Computer Forensics Fundamentals" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -268,8 +265,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Technical Communication skills</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">1. How confident are you in your ability to design and analyze analog and digital circuits?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Technical Communication" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -283,8 +280,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">AI ML</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">2. How would you rate your skills and knowledge in using industry-standard simulation and design software (e.g., MATLAB, SPICE)?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_AI ML" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -298,8 +295,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Software Engineering</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">3. What is your proficiency level in understanding and applying communication systems principles, such as modulation, signal processing, and networking?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_se" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -313,8 +310,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Business Analysis</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">4. What is your level of interest in learning about microcontroller programming and embedded systems?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Business Analysis" >
 							        <option disabled= "disabled" selected="selected">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -328,8 +325,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Communication skills</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">1. How would you rate your interest in the core subjects of BLIS (e.g., cataloging, classification, information retrieval, and digital libraries)?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Communication skills" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -343,8 +340,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10 col-form-label">Data Science</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10 col-form-label">2. How would you evaluate your practical skills in using library management systems and digital tools for information organization and retrieval?</label>
+							<div class="col-sm-11">
 							 <select class="form-select form-control" required aria-label="select example" name="rate_Data Science" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -358,8 +355,8 @@
 						    </div>
 				</div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Troubleshooting skills</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">3. How confident are you in your ability to conduct research using various information resources and databases available in libraries?</label>
+							<div class="col-sm-11">
 							 <select  class="form-control" name="rate_Troubleshooting skills" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>
@@ -374,8 +371,8 @@
 							
                 </div>
 				<div class="form-group row">
-							<label  class="col-sm-10  col-form-label">Graphics Designing</label>
-							<div class="col-sm-9">
+							<label  class="col-sm-10  col-form-label">4. How well do you think the BLIS program prepares students for the diverse career opportunities in the field of library and information science?</label>
+							<div class="col-sm-11">
 							 <select  class="form-control" name="rate" >
 							        <option value="">Select your option</option>
 									<option value="1">Not Interested</option>

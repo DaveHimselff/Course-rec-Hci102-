@@ -4,24 +4,22 @@ session_start();
 ?>
 
 <!DOCTYPE html>
+<title>HCDC BSCPE</title>
 <html lang="en">
 <?php include 'header.php'?>
 		<!-- Hero-area -->
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/hcdcB.png); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
-							<li><a href="main.php">Home</a></li>
-							<li><a href="blog.php">Knowledge Network</a></li>
-							<li>API Integration Specialist</li>
+							<li>Enroll now!</li>
 						</ul>
-						<h1 class="white-text">API Integration Specialist</h1>
 					</div>
 				</div>
 			</div>
@@ -43,11 +41,11 @@ session_start();
 
 						<!-- blog post -->
 						<div class="blog-post" style= "text-align:justify; ">
-                        <h2>Job Description</h2>
+                        <h2>Course Description</h2>
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >The API Integration Specialist are the technical problem solver who will help the clients and partners integrate with their system.  The ideal candidate should  be comfortable with writing scripts, have a strong understanding of REST web-services, and be willing to specialize in the more technical nuts and bolts of our system and the Application Programming Interface (API). Beyond the technical skillset, someone who can communicate clearly both orally and in writing. The incumbent will be required to bridge the gap between business resources and the technology team and effectively communicate with internal and external clients.</p>
+							<p style="font-size:16px;" >The Bachelor of Science in Computer Engineering (BSCE) is a comprehensive 4-year degree curriculum designed to equip students with the necessary knowledge and skills to excel in the realm of computer engineering. This program encompasses the exploration of hardware and software technologies, delving into the intricacies of planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure tailored to meet organizational demands.</p>
 
 							
                             </div>
@@ -55,62 +53,49 @@ session_start();
 
                             <!-- row -->
                             <div class="row">
-							<h2>Skills required</h2>
-							
-							<ol style="font-size:16px;">
-                                <li><b>1. </b>Proven track record in understanding an enterprise’s APIs and processes.</li>
-                                <li><b>2. </b>Experience in using APIs and web services to integrate systems.</li>
-                                <li><b>3. </b>Excellent verbal and written communication skills, strong troubleshooting, problem solving, and analytical ability required.</li>
-                                <li><b>4. </b>Ability to understand and articulate technical concepts and derive solutions.</li>
-                                <li><b>5. </b>Ability to deal with complex and challenging client issues.</li>
-                                <li><b>6. </b>Capability to perform in a high pressure working environment.</li>
-                            </ol>
+							<h2 style= "margin-right: 465px;">What to Expect in BSCPE?</h2>
+							<p style="font-size:16px;">A Bachelor of Science in Computer Engineering is a technologist with a strong grasp of mathematical concepts and proficient coding skills. Their core responsibilities revolve around designing and developing hardware and software systems, conducting extensive testing and experimentation procedures, and incorporating appropriate algorithms into computational frameworks</p>
                             </div>
                             <!-- /row -->
 
                             <!-- row -->
                             <div class="row">
-							<h2>Educational Requirements</h2>
+							<h2 style= "margin-right: 460px">Educational Requirements</h2>
 							<p style="font-size:16px;">Degree in Computer Science or Information Technology or Business Information Systems or 2 years working in a technical role with API.</p>
                             </div>
                             <!-- /row -->
 
                             <!-- row -->
                             <div class="row">
-							<h2>Duties and Responsibilities</h2>
+							<h2 style= "margin-right: 440px;">Duties and Responsibilities</h2>
 							
-							<ol style="font-size:16px;">
-                                <li><b>1. </b>Field support calls and emails from developers and business users about account API integration and functionality.</li>
-                                <li><b>2. </b>Assist customers, partners, vendors and others with all aspects of our API and its documentation.</li>
-                                <li><b>3. </b>Assist non-technical users in potential outcomes that can be achieved using the API.</li>
-                                <li><b>4. </b>Consult business professionals on ways to maximize our API by providing data to 3rd party integrations.</li>
-                                <li><b>5. </b>Engage with product and development teams in software development discussions to create/improve our systems.</li>
-                                <li><b>6. </b>Use the API to create test scenarios and scripts with expected outcomes for new integrations or expanded API use.</li>
-                                <li><b>7. </b>Be able to identify problems, prioritize and arrive at possible solutions.</li>
-                                <li><b>8. </b>Be the Subject Matter Expert for all things API, including integrations, documentation and use cases, etc.</li>
+							<ol style="margin-left: 70px; font-size:16px;">
+                                <li><b>1. </b>Understanding business objectives and devising models to support their achievement.</li>
+                                <li><b>2. </b>Comprehending the challenges faced by the organization and its clients.</li>
+                                <li><b>3. </b>Developing machine learning applications in alignment with specified requirements.</li>
+                                <li><b>4. </b>Choosing pertinent datasets and employing suitable data representation methods.</li>
+                                <li><b>5. </b>Analyzing and articulating AI and machine learning solutions while upholding and enforcing high ethical standards.</li>
+                                <li><b>6. </b>Designing machine learning systems and self-operating artificial intelligence software to automate predictive models.</li>
                             </ol>
                             </div>
                             <!-- /row -->
 
                             <!-- row -->
-                            <div class="row">
-							<h2>Salary</h2>
-							<p style="font-size:16px;">The average salary for API Integration Specialist is Rs. 731,000 per annum</p>
-                            </div>
+                    
                             <!-- /row -->
 
                             <!-- row -->
                             <div class="row">
-							<h2>Companies offering API Integration Specialist role</h2>
+							<h2 style= "margin-right: 40px;">Career Opportunities for Bachelor of Science in BSCPE</h2>
     
-							<ol style="font-size:16px;">
-                                <li><b>1. Uber </b> </li>
-                                <li><b>2. Barclays </b></li>
-                                <li><b>3. IBM</b></li>
-                                <li><b>4. Philips</b></li>
-                                <li><b>5. Larsenn and Tourbo Infotech Limited </b></li>
-                                <li><b>6. Oracle</b></li>
-                                <li><b>7. Bank of America</b></li>
+							<ol style="margin-right: 310px; font-size:16px;">
+                                <li><b>1. Embedded Systems Engineer </b> </li>
+                                <li><b>2. Software Engineer </b></li>
+                                <li><b>3. Network Engineer</b></li>
+                                <li><b>4. Hardware Engineer</b></li>
+                                <li><b>5. Cybersecurity Analyst </b></li>
+                                <li><b>6. Data Scientist/Engineer</b></li>
+                                <li><b>7. Robotics Engineer</b></li>
                             </ol>
                             </div>
                             <!-- /row -->

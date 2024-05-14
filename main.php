@@ -191,7 +191,7 @@ you confidently toward your academic and career goals.
 
 					<div class="col-md-6">
 						<div class="about-img">
-							<img src="./img/CET.jpg" alt="">
+							<img style= "width: 300px; margin-top: 180px;" src="./img/CETNEW.jpg" alt="">
 						</div>
 					</div>
 
