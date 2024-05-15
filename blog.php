@@ -40,23 +40,23 @@ session_start();
 			<div class="container">
 				<!-- tags widget -->
 					<div class="widget tags-widget">
-							<a class="tag" href="#AI ML Specialist">Bachelor of Science in Information Technology</a>
-							<a class="tag" href="#API Integration Specialist ">Bachelor of Science in Computer Engineering </a>
-							<a class="tag" href="#Penetration Tester">Bachelor of Science in </a>
-							<a class="tag" href="#Application Support Engineer">Application Support Engineer</a>
-							<a class="tag" href="#Business Analyst">Business Analyst</a>
-							<a class="tag" href="#Customer service executive">Customer service executive</a>
-							<a class="tag" href="#Cyber Security Specialist">Cyber Security Specialist</a>
-							<a class="tag" href="#Database Administrator">Database Administrator</a>
-							<a class="tag" href="#Data Scientist">Data Scientist</a>
-							<a class="tag" href="#Hardware Engineer">Hardware Engineer</a>
-							<a class="tag" href="#Helpdesk Engineer">Helpdesk Engineer</a>
-							<a class="tag" href="#Information Security Specialist">Information Security Specialist</a>
-							<a class="tag" href="#Networking Engineer">Networking Engineer</a>
-							<a class="tag" href="#Project Manager">Project Manager</a>
-							<a class="tag" href="#Software Developer">Software Developer</a>
-							<a class="tag" href="#Software Tester">Software Tester</a>
-							<a class="tag" href="#Technical writer">Technical writer</a>
+							<a class="tag" href="#AI ML Specialist">Computer Related</a>
+							<a class="tag" href="#API Integration Specialist ">Software & Hardware</a>
+							<a class="tag" href="#Penetration Tester">Programming</a>
+							<a class="tag" href="#Application Support Engineer">Mathematics</a>
+							<a class="tag" href="#Business Analyst">Machine learning</a>
+							<a class="tag" href="#Customer service executive">Books</a>
+							<a class="tag" href="#Cyber Security Specialist">Circuit Knowledge</a>
+							<a class="tag" href="#Database Administrator">Machine learning</a>
+							<a class="tag" href="#Data Scientist">Data</a>
+							<a class="tag" href="#Hardware Engineer">Algorithms</a>
+							<a class="tag" href="#Helpdesk Engineer">SQL</a>
+							<a class="tag" href="#Information Security Specialist">Python</a>
+							<a class="tag" href="#Networking Engineer">Literacy</a>
+							<a class="tag" href="#Project Manager">Research</a>
+							<a class="tag" href="#Software Developer">Electronics</a>
+							<a class="tag" href="#Software Tester">Microprocessor</a>
+							<a class="tag" href="#Technical writer">Cybersecurity</a>
 							<a class="tag" href="#Graphic Designer">Graphic Designer</a>
 						</div>
 						<!-- /tags widget -->

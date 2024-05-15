@@ -28,15 +28,15 @@ h1,h2,h3{
   width: 100%;
   position: absolute;
   left: 0;
-  height: 30px;
-  top: 0;
+  height: 40px;
+  top: 0; 
   z-index: -2;
   background: #ecf0f1;
 }
 .bar::after{
   content: '';
   background: #af0b00;
-  height: 30px;
+  height: 45px;
   transition: 0.7s;
   display: block;
   width: 100%;

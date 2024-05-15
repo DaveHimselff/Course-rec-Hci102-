@@ -44,15 +44,11 @@ session_start();
 				 -->
 				
 				<!-- tags widget -->
-				<div class="widget tags-widget">
-					<a class="tag" href="#web">Web</a>
-					<a class="tag" href="#prog">Programming Langauges</a>
-					<a class="tag" href="#">Css</a>
-					<a class="tag" href="#">Responsive</a>
-					<a class="tag" href="#bootstrap">bootstrap</a>
-					<a class="tag" href="#web">Html</a>
-					<a class="tag" href="#">Website</a>
-					<a class="tag" href="#">Business</a>
+				<div class="widget tags-widget" style= "margin-left: 290px;">
+					<a class="tag" href="#web">Programming</a>
+					<a class="tag" href="#prog">Hardware</a>
+					<a class="tag" href="#">Circuit Knowledge</a>
+					<a class="tag" href="#">Library management</a>
 				</div>
 				<!-- /tags widget -->
 				
@@ -61,7 +57,7 @@ session_start();
 				<div id="courses-wrapper" >
                  		
 					<!-- row -->
-					<h2 style= "padding-left: 330px">College of Engineering and Technology</h2>
+					<h2 style= "font-size: 30px; padding-left: 330px">College of Engineering and Technology</h2>
 					<div class="row" >
                         <div class="section-header text-center" >
 						</div>
@@ -76,8 +72,8 @@ session_start();
 								<a class="course-title" href="http://localhost/courserecommendation/AI_ML_Specialist.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Science in Information Technology</a>
 								<br>
 								<div class="course-details" style="margin:5px;">
-									<span class="course-category">Web Development</span>
-									<span class="course-price course-free">Free</span>
+									<span class ="course-category" style= "margin-left: 60px;">CET Deparment</span>
+									<span class="course-price course-free"> </span>
 								</div>
 							</div>
 						</div>
@@ -93,8 +89,8 @@ session_start();
 								<a class="course-title" href="http://localhost/courserecommendation/API_Integration%20_Specialist.php" target="_blank" style="font-size:18px; text-align: center"><b>Bachelor of Science in Computer Engineering </b></a>
 								<br>
 								<div class="course-details" style="margin: 5px;">
-									<span class="course-category">Web Design</span>
-									<span class="course-price course-free">Free</span>
+									<span class="course-category" style= "margin-left: 60px;">CET Department</span>
+									<span class="course-price course-free"> </span>
 								</div>
 							</div>
 						</div>
@@ -110,8 +106,8 @@ session_start();
 								<a class="course-title" href="http://localhost/courserecommendation/Penetration_Tester.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Science in Electronics Engineering</a>
 								<br>
 								<div class="course-details" style="margin: 5px;">
-									<span class="course-category">Web Development</span>
-										<span class="course-price course-free">Free</span>
+									<span class="course-category" style= "margin-left: 60px;">CET Department</span>
+										<span class="course-price course-free"> </span>
 								</div>
 							</div>
 						</div>
@@ -126,8 +122,8 @@ session_start();
 								<a class="course-title" href="http://localhost/courserecommendation/Application_Support_Engineer.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Library and Information Science</a>
 								<br>
 								<div class="course-details" style="margin: 5px;">
-									<span class="course-category">Web Design</span>
-									<span class="course-price course-free">Free</span>
+									<span class="course-category" style= "margin-left: 60px">CET Department</span>
+									<span class="course-price course-free"> </span>
 								</div>
 							</div>
 						</div>

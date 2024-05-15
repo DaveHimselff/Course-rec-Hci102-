@@ -111,20 +111,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         }
         .wrapper{  border-style: solid;
-        border-color: #af0b00;
+        border-color: white;
         border-radius: 30px;
         padding: 20px;  background-color: white;}
     </style>
 </head>
 <body>
     <!--Header-->
-    <header id="header" class="transparent-nav" style="position: fixed;background-color: #af0b00; top: 0;">
+   
 			<div class="container">
 
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="main.php" style="padding-bottom: 10px;">Course Recommendation</a>
+
 					</div>
 					<!-- /Logo -->
 
@@ -134,29 +134,28 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		<!-- /Header -->
 
     <div class="wrapper">
-        <h2>Sign Up</h2>
-        <p>Please fill this form to create an account.</p>
+        <h2 style= "font-size: 45px;"><a href="main.php" style= "margin-right: 10px;"><img src="img/hcdc_logo.png" alt="Logo" style= " margin-bottom: 30px; width: 60px;"></a>Sign Up</h2>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group">
-                <label><b>Username</b></label>
+                <label><b style= "font-size: 20px;">Username</b></label>
                 <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
                 <span class="invalid-feedback"><?php echo $username_err; ?></span>
             </div>    
             <div class="form-group">
-                <label><b>Password</b></label>
+                <label><b style= "font-size: 20px;">Password</b></label>
                 <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
-                <label><b>Confirm Password</b></label>
+                <label><b style= "font-size: 20px;">Confirm Password</b></label>
                 <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $confirm_password; ?>">
                 <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
+                <input style="margin-left: 140px; background-color: #af0b00" type="submit" class="btn btn-primary" value="Submit">
                 <input type="reset" class="btn btn-secondary ml-2" value="Reset">
             </div>
-            <p style="font-size: 16px;">Already have an account? <a href="login.php" style="color: blue;">Login here</a>.</p>
+            <p style="font-size: 16px; margin-left: 80px;">Already have an account? <a href="login.php" style="color: blue;">Login here</a>.</p>
         </form>
     </div>    
 </body>
