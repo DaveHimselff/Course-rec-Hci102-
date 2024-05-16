@@ -19,10 +19,8 @@ session_start();
 				<div class="row" >
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
-							<li><a href="main.html">Home</a></li>
-							<li>Knowledge Network</li>
+							<li>Enroll now!</li>
 						</ul>
-						<h1 class="white-text">Description Page</h1>
 					</div>
 				</div>
 				

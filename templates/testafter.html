@@ -55,14 +55,12 @@
                         <li class="dropdown">
                             <a class="dropbtn" href="javascript:void(0)">Services <span> &#11167;</span></a>
                             <div class="dropdown-content">
-                                <a href="http://127.0.0.1/php%20CAREERLY/courses.php">Courses</a>
-								<a href="http://localhost/courserecommendation/blog.php">Knowledge Network</a>
-								<a href="http://127.0.0.1/php%20CAREERLY/faq.php">FAQs</a>
+                                <a href="http://localhost/courserecommendation/courses.php">Courses</a>
                             </div>
                         </li>
-						<li><a href="#about">About Us</a></li>
-						<li><a href="http://127.0.0.1/php%20CAREERLY/contact.php">Contact Us</a></li>
-						<li><a href="http://127.0.0.1/php%20CAREERLY/logout.php"" >Log out</a></li>
+						<li><a href="http://localhost/courserecommendation/main.php#about">About Us</a></li>
+						<li><a href="http://localhost/courserecommendation/contact.php">Contact Us</a></li>
+						<li><a href="http://localhost/courserecommendation/logout.php" >Log out</a></li>
 						
                         
 					</ul>
@@ -80,10 +78,9 @@
 		
 		
 	  
-	 
 	 {%for key, value in final_res.items(): %}
 		{%if job0!=job_dict[value]%}
-		 <div class="bar bar2"><a href="http://127.0.0.1/courserecommendation/blog.php" style="text-decoration: none;"><font color="white" style= "font-size: 20px; padding-top: 10px;">{{job_dict[value]}}</a></font></div><br>
+		 <div class="bar bar2"><a href="http://127.0.0.1/courserecommendation/blog.php" style="text-decoration: none; line-height: 40px"><font color="white" style= "font-size: 20px; padding-top: 10px;">{{job_dict[value]}}</a></font></div><br>
 
 	 
 	 
@@ -104,7 +101,7 @@
 	 <br><br>
 	 <h1 style="font-size: 35px; margin-right: 1px;">WHAT TO EXPECT IN THESE COURSE: </h1>
 
-	 <i><h2><p><a href="http://localhost/courserecommendation/courses.php">To know more about other Courses click here!</a></p></h2></i>
+	 <i><h2><p><a href="http://localhost/courserecommendation/blog.php">To know more about other Courses click here!</a></p></h2></i>
 	 
 	 
 	
