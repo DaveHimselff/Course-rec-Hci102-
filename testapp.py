@@ -53,23 +53,23 @@ def result():
                 index += 1
 
         jobs_dict = {
-            0: 'Bachelor of Science in Electronics Engineering',
-            1: 'Bachelor of Science in Computer Engineering',
-            2: 'Bachelor of Science in Information Technology',
-            3: 'Bachelor of Science in Electronics Engineering',
+            0: 'Bachelor of Science in Electronics Engineering', ##2ndECE
+            1: 'Bachelor of Science in Computer Engineering', ##2BSCPE
+            2: 'Bachelor of Science in Information Technology', ##3IT
+            3: 'Bachelor of Science in Electronics Engineeringg', ##4rthECE
             4: 'Bachelor of Library Information Science',
-            5: 'Bachelor of Science in Information Technology',
+            5: 'Bachelor of Science in Information Technology', ##4thIT
             6: 'Bachelor of Library Information Science',
-            7: 'Bachelor of Science in Information Technology',
+            7: 'Bachelor of Science in Information Technology', ##1IT
             8: 'Bachelor of Library Information Science',
-            9: 'Bachelor of Science in Information Technology',
+            9: 'Bachelor of Science in Information Technology', ##2IT
             10: 'Bachelor of Library Information Science',
-            11: 'Bachelor of Science in Computer Engineering',
-            12: 'Bachelor of Science in Information Technology',
-            13: 'Bachelor of Science in Computer Engineering',
-            14: 'Bachelor of Science in Computer Engineering',
-            15: 'Bachelor of Science in Electronics Engineering',
-            16: 'Bachelor of Science in Electronics Engineering'
+            11: 'Bachelor of Science in Computer Engineering', ##4thBSCPE
+            12: 'Bachelor of Science in Information Technology', ##5thIT
+            13: 'Bachelor of Science in Computer Engineeringg', ##3rdBSCPE
+            14: 'Bachelor of Science in Computer Engineering', ##1BSCPE
+            15: 'Bachelor of Science in Electronics Engineering', ##3rdECE
+            16: 'Bachelor of Science in Electronics Engineering' ##1stECE
         }
 
         job = {}
