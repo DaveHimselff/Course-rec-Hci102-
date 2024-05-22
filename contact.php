@@ -76,46 +76,7 @@ session_start();
 
 		
 		<!-- Footer -->
-		<footer id="footer" class="section">
 
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<!-- footer logo -->
-					<div class="col-md-6">
-						<div class="footer-logo">
-							<a class="logo" style="font-size: 30px;" href="main.html">HCDC CET Course</a>
-						</div>
-					</div>
-					<!-- footer logo -->
-
-
-				</div>
-				<!-- /row -->
-
-				<!-- row -->
-				<div id="bottom-footer" class="row">
-
-					<!-- social -->
-					<div class="col-md-4 col-md-push-8">
-						
-					</div>
-					<!-- /social -->
-
-					<!-- copyright -->
-
-					<!-- /copyright -->
-
-				</div>
-				<!-- row -->
-
-			</div>
-			<!-- /container -->
-
-		</footer>
 		<!-- /Footer -->
 		
 		<!-- preloader -->

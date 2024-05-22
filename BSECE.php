@@ -45,7 +45,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >The Bachelor of Science in Electrical Engineering (BSEE) is a comprehensive 4-year degree program designed to impart knowledge and cultivate skills necessary for students to excel in the field of electrical engineering. </p>
+							<p style="font-size:16px;" >The Bachelor of Science in Electrical Engineering (BSECE) is a comprehensive 4-year degree program designed to impart knowledge and cultivate skills necessary for students to excel in the field of electrical engineering. </p>
 
 							<p style="font-size:16px;">The curriculum encompasses the exploration of both hardware and software technologies, focusing on planning, installing, customizing, operating, managing, administering, and maintaining electrical systems and infrastructure that cater to the computational requirements of organizations.</p>
 

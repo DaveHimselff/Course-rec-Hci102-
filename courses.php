@@ -65,11 +65,11 @@ session_start();
 						<!-- single course -->
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<a href="http://localhost/courserecommendation/AI_ML_Specialist.php" target="_blank" class="course-img">
+								<a href="http://localhost/courserecommendation/BSIT.php" target="_blank" class="course-img">
 									<img src="./img/ITS.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="http://localhost/courserecommendation/AI_ML_Specialist.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Science in Information Technology</a>
+								<a class="course-title" href="http://localhost/courserecommendation/BSIT.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Science in Information Technology</a>
 								<br>
 								<div class="course-details" style="margin:5px;">
 									<span class ="course-category" style= "margin-left: 60px;">CET Deparment</span>
@@ -82,11 +82,11 @@ session_start();
 						<!-- single course -->
 						<div class="col-md-3 col-sm-6 col-xs-6" >
 							<div class="course">
-								<a href="http://localhost/courserecommendation/API_Integration%20_Specialist.php" target="_blank" class="course-img">
+								<a href="http://localhost/courserecommendation/BSCPE.php" target="_blank" class="course-img">
 									<img src="./img/BSCPE.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="http://localhost/courserecommendation/API_Integration%20_Specialist.php" target="_blank" style="font-size:18px; text-align: center"><b>Bachelor of Science in Computer Engineering </b></a>
+								<a class="course-title" href="http://localhost/courserecommendation/BSCPE.php" target="_blank" style="font-size:18px; text-align: center"><b>Bachelor of Science in Computer Engineering </b></a>
 								<br>
 								<div class="course-details" style="margin: 5px;">
 									<span class="course-category" style= "margin-left: 60px;">CET Department</span>
@@ -99,11 +99,11 @@ session_start();
 						<!-- single course -->
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<a href="http://localhost/courserecommendation/Penetration_Tester.php" target="_blank" class="course-img">
+								<a href="http://localhost/courserecommendation/BSECE.php" target="_blank" class="course-img">
 									<img src="./img/ECE.jpg " alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="http://localhost/courserecommendation/Penetration_Tester.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Science in Electronics Engineering</a>
+								<a class="course-title" href="http://localhost/courserecommendation/BSECE.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Science in Electronics Engineering</a>
 								<br>
 								<div class="course-details" style="margin: 5px;">
 									<span class="course-category" style= "margin-left: 60px;">CET Department</span>
@@ -115,11 +115,11 @@ session_start();
 
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<a href="http://localhost/courserecommendation/Application_Support_Engineer.php" class="course-img" target="_blank">
+								<a href="http://localhost/courserecommendation/BLIS.php" class="course-img" target="_blank">
 									<img src="./img/BLIS.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="http://localhost/courserecommendation/Application_Support_Engineer.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Library and Information Science</a>
+								<a class="course-title" href="http://localhost/courserecommendation/BLIS.php" target="_blank" style="font-size:18px; text-align: center">Bachelor of Library and Information Science</a>
 								<br>
 								<div class="course-details" style="margin: 5px;">
 									<span class="course-category" style= "margin-left: 60px">CET Department</span>
