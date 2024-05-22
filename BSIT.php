@@ -26,7 +26,6 @@ session_start();
 
 		</div>
 		<!-- /Hero-area -->
-
 		<!-- Blog -->
 		<div id="blog" class="section">
 
@@ -36,13 +35,17 @@ session_start();
 				<!-- row -->
 				<div class="row">
 
-					<!-- main blog -->
+<!-- Backgound Image -->
 
+				
+
+					<!-- main blog -->
 						<!-- blog post -->
-						<div class="blog-post" style= text-align:justify; ">
+						<div class="blog-post" style=" text-align:justify;">
                             <h2>Course Description</h2>
                             <!-- row -->
                             <div class="row">
+							
 
 							<p style="font-size:16px;" >The Bachelor of Science in Information Technology (BSIT) is a 4-year degree program that aims to deliver knowledge and develop the skills of the students to become adept in the field of computer and information technology. The program includes the study of the utilization of both hardware and software technologies involving planning, installing, customizing, operating, managing and administering, and maintaining information technology infrastructure that provides computing solutions to address the needs of an organization.</p>
 
@@ -51,10 +54,12 @@ session_start();
                             </div>
                             <!-- /row -->
                             <!-- row -->
+
+							
                             <div class="row">
 							<h2 style= "margin-right: 830px;">What to Expect in BSIT?</h2>
 							<p style="font-size:16px;">A Bachelor of Science in Information Technology is a software professional equipped with a robust mathematical foundation and coding proficiency. Their primary duties entail conceptualizing and constructing machine learning and deep learning frameworks, executing rigorous testing and experimentation processes, and integrating suitable ML algorithms into software systems.</p>
-							<p style="font-size:16px; margin-right: 350px;"><br>Career Opportunities for Bachelor of Science in Information Technology</p>
+							<p style="font-size:16px; margin-right: 455px;"><br>Career Opportunities for Bachelor of Science in Information Technology</p>
 							<ol style="font-size:16px;">
                                 <li style= "margin-right: 400px;"><b>1.</b> Programming skills needed</li>
                                 <li><b>2.</b> Computer science fundamentals and programming</li>

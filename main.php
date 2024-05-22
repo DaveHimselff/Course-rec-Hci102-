@@ -6,6 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'header.php'?>
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
         <!-- Home -->
 		<div id="home" class="hero-area">
 
@@ -27,7 +28,7 @@ session_start();
 							<?php
 								// Check if the user is logged in, if not then redirect him to login page
 								if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):?>
-									<p class="lead white-text" style=" color: white; margin-left: 5px;" ><b>Discover courses just for you! Get<br>suggestions that fit what you want to<br>learn and where you want to go in your<br>career. It's like having a personal guide<br>helping you find the perfect course<br>match. Start exploring today!</b></p>
+									<p class="lead white-text" style=" color: white; margin-left: 5px;" ><b style= "font-family: 'Inter';font-size: 22px;">Discover courses just for you! Get<br>suggestions that fit what you want to<br>learn and where you want to go in your<br>career. It's like having a personal guide<br>helping you find the perfect course<br>match. Start exploring today!</b></p>
 
 									<a class="main-button icon-button" href="login.php">LEARN MORE</a>
 
@@ -128,48 +129,7 @@ you confidently toward your academic and career goals.
 		<!-- /Why us -->
 
 		<!-- Call To Action -->
-		<div id="cta" class="section" style="height: 400px;">
-
-			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/hcdcB.png)"></div>
-			<!-- /Backgound Image -->
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<div class="col-md-6">
-					
-						
-							<?php
-								// Check if the user is logged in, if not then redirect him to login page
-								if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):?>
-									<h2 class="white-text" style="font-size: 30px; width:700px ;">Hi,</h2>
-
-									<h2 class="white-text" style="font-size: 25px; width:700px ; margin-top:10px;">Your Career Path Begins Here</h2>
-									<p class="lead white-text" >We Create Beautiful Experiences
-										That Drive Successful Careers.</p>
-									<a class="main-button icon-button" href="register.php">LEARN MORE</a>
-								<?php else: ?>
-									<h2 class="white-text" style="font-size: 30px; width:700px ;">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?> !</b></h2>
-
-								<h2 class="white-text" style="font-size: 25px; width:700px ; margin-top:10px;">Your Career Path Begins Here</h2>
-								<p class="lead white-text" >We Create Beautiful Experiences
-									That Drive Successful Careers.</p>
-									<a class="main-button icon-button" href="main.php">LEARN MORE!</a>
-									
-							<?php endif ?>
-					</div>
-
-				</div>
-				<!-- /row -->
-
-			</div>
-			<!-- /container -->
-
-		</div>
+		
 		<!-- /Call To Action -->
 
 		<!-- About -->
@@ -207,7 +167,7 @@ you confidently toward your academic and career goals.
 		<div id="contact-cta" class="section" style="height: 400px;">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/hcdcB.png)"></div>
 			<!-- Backgound Image -->
 
 			<!-- container -->
