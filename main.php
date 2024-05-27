@@ -14,7 +14,7 @@ session_start();
 			<?php if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true): ?>
     			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/hcdcB.png); width:100%; height: 656px;"></div>
 			<?php else: ?>
-    			<div class="bg-image2 bg-parallax2 overlay" style="background-image:url(./img/Allien3.png); width:30%; height: 500px;"></div>
+    			<div class="bg-image2 bg-parallax2 overlay" style="background-image:url(./img/Allien3.jpg); width:30%; height: 500px;"></div>
 			<?php endif ?>
 			<!-- /Background Image -->
 
