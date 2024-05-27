@@ -11,11 +11,10 @@
 					<!-- footer logo -->
 					<div class="col-md-6">
 						<div class="footer-logo">
-							<a class="logo" style="margin-left: 218px; font-size: 30px;" href="main.php">Get int touch</a>
+							<a class="logo" style="margin-left: 218px; font-size: 30px;" href="main.php">Get in touch</a>
 						</div>
 					</div>
 					<!-- footer logo -->
-
 
 				</div>
 				<!-- /row -->
@@ -24,11 +23,9 @@
 				<div id="bottom-footer" class="row">
 
 					<!-- social -->
-					<div class="col-md-4 col-md-push-4">
+					<div class="col-md-3 col-md-push-4">
 						<ul class="footer-social">
 							<li><a href="https://www.facebook.com/Daveadoradorador.Dor/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
 							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>

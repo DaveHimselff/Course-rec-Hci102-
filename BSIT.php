@@ -59,9 +59,9 @@ session_start();
                             <div class="row">
 							<h2 style= "margin-right: 830px;">What to Expect in BSIT?</h2>
 							<p style="font-size:16px;">A Bachelor of Science in Information Technology is a software professional equipped with a robust mathematical foundation and coding proficiency. Their primary duties entail conceptualizing and constructing machine learning and deep learning frameworks, executing rigorous testing and experimentation processes, and integrating suitable ML algorithms into software systems.</p>
-							<p style="font-size:16px; margin-right: 455px;"><br>Career Opportunities for Bachelor of Science in Information Technology</p>
+							<p style="font-size:16px; margin-right: 630px;"><br>Career Opportunities for Bachelor of Science in Information Technology</p>
 							<ol style="font-size:16px;">
-                                <li style= "margin-right: 400px;"><b>1.</b> Programming skills needed</li>
+                                <li style= "margin-right: 800px;"><b>1.</b> Programming skills needed</li>
                                 <li><b>2.</b> Computer science fundamentals and programming</li>
                                 <li><b>3.</b> Distributed computing</li>
                                 <li><b>4.</b> Machine learning algorithms and libraries</li>

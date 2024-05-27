@@ -70,12 +70,12 @@ session_start();
 							<h2 style= "margin-right: 440px;">Duties and Responsibilities</h2>
 							
 							<ol style="margin-left: 70px; font-size:16px;">
-                                <li><b>1. </b>Understanding business objectives and devising models to support their achievement.</li>
-                                <li><b>2. </b>Comprehending the challenges faced by the organization and its clients.</li>
-                                <li><b>3. </b>Developing machine learning applications in alignment with specified requirements.</li>
-                                <li><b>4. </b>Choosing pertinent datasets and employing suitable data representation methods.</li>
-                                <li><b>5. </b>Analyzing and articulating AI and machine learning solutions while upholding and enforcing high ethical standards.</li>
-                                <li><b>6. </b>Designing machine learning systems and self-operating artificial intelligence software to automate predictive models.</li>
+                                <li>1. Understanding business objectives and devising models to support their achievement.</li>
+                                <li>2. Comprehending the challenges faced by the organization and its clients.</li>
+                                <li>3. Developing machine learning applications in alignment with specified requirements.</li>
+                                <li>4. Choosing pertinent datasets and employing suitable data representation methods.</li>
+                                <li>5. Analyzing and articulating AI and machine learning solutions while upholding and enforcing high ethical standards.</li>
+                                <li>6. Designing machine learning systems and self-operating artificial intelligence software to automate predictive models.</li>
                             </ol>
                             </div>
                             <!-- /row -->
@@ -88,14 +88,14 @@ session_start();
                             <div class="row">
 							<h2 style= "margin-right: 40px;">Career Opportunities for Bachelor of Science in BSCPE</h2>
     
-							<ol style="margin-right: 310px; font-size:16px;">
-                                <li><b>1. Embedded Systems Engineer </b> </li>
-                                <li><b>2. Software Engineer </b></li>
-                                <li><b>3. Network Engineer</b></li>
-                                <li><b>4. Hardware Engineer</b></li>
-                                <li><b>5. Cybersecurity Analyst </b></li>
-                                <li><b>6. Data Scientist/Engineer</b></li>
-                                <li><b>7. Robotics Engineer</b></li>
+							<ol style="margin-right: 375px; font-size:16px;">
+                                <li>1. Embedded Systems Engineer</li>
+                                <li>2. Software Engineer</li>
+                                <li>3. Network Engineer</li>
+                                <li>4. Hardware Engineer</li>
+                                <li>5. Cybersecurity Analyst</li>
+                                <li>6. Data Scientist/Engineer</li>
+                                <li>7. Robotics Engineer</li>
                             </ol>
                             </div>
                             <!-- /row -->

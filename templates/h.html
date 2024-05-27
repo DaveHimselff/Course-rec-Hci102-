@@ -12,30 +12,12 @@
     <link href="{{ url_for('static', filename='css1/font-awesome.min.css') }}" rel="stylesheet" media="all">
     <link href="{{ url_for('static', filename='css1/s.css') }}" rel="stylesheet" media="all">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
-
-    <style>
-        .option-button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 16px;
-            background-color: #af0b00;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .option-button:hover {
-            background-color: #960a00;
-        }
-    </style>
 </head>
 
 <body>
     <!--Header-->
     <header id="header" class="transparent-nav" style="position: fixed;background-color: #af0b00; top: 0;">
-		<div class="container">
+        <div class="container">
             <div class="navbar-header">
                 <div class="navbar-brand">
                     <a href="main.php"><img src="static/img/hcdc_logo2.png" alt="Logo2" style="width:40px; margin-bottom: 30px;"></a>
@@ -67,7 +49,16 @@
         </div>
     </header>
     <div class="hero-area section">
-        <!-- Your hero area code -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <ul class="hero-area-tree">
+                        <li><a href="http://127.0.0.1:5000/">Course Prediction</a></li>
+                    </ul>
+                    <h1 class="white-text">Get Started to Discover Yourself!</h1>
+                </div>
+            </div>
+        </div>
     </div>
 
     <link href="{{ url_for('static', filename='vendor/mdi-font/css/material-design-iconic-font.min.css') }}" rel="stylesheet" media="all">
@@ -77,19 +68,21 @@
     <link href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}" rel="stylesheet" media="all">
     <link href="{{ url_for('static', filename='vendor/datepicker/daterangepicker.css') }}" rel="stylesheet" media="all">
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" media="all">
+</head>
 
+<body>
     <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
         <div class="wrapper wrapper--w790">
             <div class="card card-5">
                 <div class="card-heading">
-                    <h2 class ="title">START COVERING YOUR TRUE POTENTIAL</h2>
+                    <h2 class="title">Rate Yourself.....!!</h2>
                 </div>
                 <div class="card-body">
                     <form id="questionForm" method="POST" action="{{url_for('result')}}">
                         <div id="questions-container">
                             <!-- Questions will be inserted here by JavaScript -->
                         </div>
-                        <button id="discover-button" style="display: none; margin-left: 150px;" class="btn btn--radius-2 btn--red" type="submit">Discover Yourself!</button>
+                        <button style="margin-left: 150px;" class="btn btn--radius-2 btn--red" type="submit">Discover Yourself!</button>
                     </form>
                 </div>
             </div>
@@ -128,7 +121,6 @@
         ];
 
         const questionContainer = document.getElementById('questions-container');
-        const discoverButton = document.getElementById('discover-button');
         const answers = {};
         let currentQuestionIndex = 0;
 
@@ -153,9 +145,6 @@
                     };
                     questionContainer.appendChild(button);
                 });
-            } else {
-                // Show the discover button when all questions are answered
-                discoverButton.style.display = 'block';
             }
         }
 
@@ -177,4 +166,3 @@
 </body>
 
 </html>
-

@@ -57,7 +57,7 @@ session_start();
 
                             <!-- row -->
                             <div class="row">
-							<h2 style= "margin-right: 800px;">Educational Requirements</h2>
+							<h2 style= "margin-right: 805px;">Educational Requirements</h2>
 							<p style="font-size:16px;">In order to get a job as an Application Support Engineer, one must first earn a Bachelor’s degree in Computer Science or a related field, such as Software Development. During the course of this education, aspiring Application Support Engineers learn the basics of database management, application development and and computer-related Mathematics.</p>
                             </div>
                             <!-- /row -->
