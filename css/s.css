@@ -259,10 +259,11 @@ blockquote:before{
 	background-size:cover;
 }
 .bg-image2 {
+	
 	position:absolute;
 	left:80rem;
 	right:80rem;
-	top:12rem;
+	top:20rem;
 	bottom:0;
 	background-position:center;
 	background-size:cover;

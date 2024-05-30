@@ -14,7 +14,7 @@ session_start();
 			<?php if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true): ?>
     			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/hcdcB.png); width:100%; height: 656px;"></div>
 			<?php else: ?>
-    			<div class="bg-image2 bg-parallax2 overlay" style="background-image:url(./img/CET2.png); width:30%; height: 500px;"></div>
+    			<div class="bg-image2 bg-parallax2 overlay" style="background-image:url(./img/Allien254.png); width: 22%; height: 400; margin-left: 80px; margin-top: 10px"></div>
 			<?php endif ?>
 			<!-- /Background Image -->
 
@@ -33,7 +33,7 @@ session_start();
 									<a class="main-button icon-button" href="login.php">LEARN MORE</a>
 
 								<?php else: ?>
-									<p class="lead white-text" style=" font-size: 45px; margin-left: 5px; Color: #af0b00;" ><br><b>COLLEGE OF<br>ENGINEERING AND<br>TECHNOLOGY</b></p>
+									<p class="lead white-text" style="font-family: 'Inter'; text-shadow: 2px 1px 0 #000; font-size: 70px; margin-left: 5px; Color: #af0b00;" ><br><b>Get Started<br>Your AI Quest</b></p>
 
 									<a class="main-button icon-button" href="http://127.0.0.1:5000/">Get Started!</a>
 								
